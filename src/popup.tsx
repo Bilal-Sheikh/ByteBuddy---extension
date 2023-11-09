@@ -31,7 +31,7 @@ function IndexPopup() {
 										YOU: {m.content}
 									</div>
 								) : (
-									<div className="bg-zinc-800 rounded-md my-1 p-1">
+									<div className="bg-slate-800 rounded-md my-1 p-1">
 										🤖: {m.content}
 									</div>
 								)}
