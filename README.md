@@ -7,14 +7,24 @@ https://github.com/Bilal-Sheikh/ByteBuddy---extension/assets/85779794/4a175986-6
 
 
 ## Getting Started
-
-First, run the development server:
-
-```bash
-pnpm dev
-# or
-npm run dev
-```
+- Clone the repo :
+  ```bash
+  git clone https://github.com/Bilal-Sheikh/ByteBuddy---extension.git
+  ```
+- Install dependencies:
+  ```bash
+  yarn install
+  # or
+  npm install
+  ```
+- Run the development server:
+  
+  ```bash
+  yarn dev
+  # or
+  npm run dev
+  ```
+- Follow the below instructions or follow this [https://docs.plasmo.com/framework](https://docs.plasmo.com/framework#loading-the-extension-in-chrome)
 
 Open your browser and load the appropriate development build. For example, if you are developing for the Chrome browser using manifest v3, use: `build/chrome-mv3-dev`.
 
@@ -27,7 +37,7 @@ For further guidance, [visit our Documentation](https://docs.plasmo.com/)
 Run the following:
 
 ```bash
-pnpm build
+yarn build
 # or
 npm run build
 ```
